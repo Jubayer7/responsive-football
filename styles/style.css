@@ -3,10 +3,46 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* Header design */
+.top-banner{
+    display: flex;
+    justify-content: center;
+    background-color: hsla(243, 62%, 39%, 1);
+    margin-bottom: 70px;  
+   
+}
+.copa{
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 40px;
+    width: 485px;
+}
+.button a{
+    color: #FFFFFF;
+    text-decoration: none;
+   padding: 10px 24px;
+    background-color: hsla(338, 75%, 53%, 1);
+}
+.arrow{
+    font-size: 25px;
+    margin-left: 12px;
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+    padding: 86px;
+   
+}
+
+.banner:hover {
+    transform: scale(1.5);
+  
+}
+
+
+/* main design */
 .container{
     display: flex;
     justify-content: center;
-    /* margin-left: 100px; */
 }
 
 .top-players{
