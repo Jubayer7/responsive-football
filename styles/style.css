@@ -3,8 +3,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-/* Header design */
-
+/* Top banner design */
 .top-banner{
     display: flex;
     justify-content: center;
@@ -12,10 +11,14 @@ body{
     margin-bottom: 70px;  
    
 }
+.headline{
+    margin-left: 150px;
+}
 .left-banner{
     color: hsla(0, 0%, 100%, 1);
     font-size: 40px;
     width: 485px;
+   
 }
 .button a{
     color: #FFFFFF;
@@ -29,6 +32,7 @@ body{
 }
 .banner{
     margin-left: 50px;
+    
 }
 .banner img{
     width: 556.01px;
@@ -40,7 +44,7 @@ body{
 
 .banner:hover {
     transform: scale(1.5);
-    transition: transform 2s  delay 2s;
+    transition: transform 2s ;
   
 }
 
@@ -75,26 +79,30 @@ body{
 /* Another section */
 .container-b{display: flex;  
    justify-content: center;
+   
+
 }
 .sponsors{
+    display:flex;
     font-size: 30px;
     color: hsla(243, 62%, 39%, 1);
-    margin-left: 180px;
+    margin-left: 200px;
 }
 .sponsors-link{
     display: flex;
     font-size: 130px;
-}
-.discover{
-    color: indianred;
-}
-.jcb{color: rgb(43, 54, 218);
 
 }
-.stripe{
+.sponsors-1{
+    color: indianred;
+}
+.sponsors-2{color: rgb(43, 54, 218);
+
+}
+.sponsors-3{
     color: olivedrab;
 }
-.cpanel{
+.sponsors-4{
     color: peru;
 }
 /* Footer design */
@@ -102,7 +110,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .logo img{
     width: 483px;
@@ -122,15 +130,17 @@ Mobile and Tab screen
 /* Mobile */
 
 @media only screen and (max-width: 688px) {
-
+    
     .top-banner{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
        
     }
     .top-players{
         grid-template-columns: repeat(1, 1fr);
     }
+   
 
 
   }
@@ -144,7 +154,9 @@ Mobile and Tab screen
        .top-players{
            grid-template-columns: repeat(2, 1fr);
        }
-      
+      .container-b{
+          grid-template-columns: repeat(2, 1fr);
+      }
   }
   
   
