@@ -27,16 +27,20 @@ body{
     font-size: 25px;
     margin-left: 12px;
 }
+.banner{
+    margin-left: 50px;
+}
 .banner img{
     width: 556.01px;
     height: 438px;
     padding: 86px;
+    
    
 }
 
 .banner:hover {
     transform: scale(1.5);
-    transition: transform 2s;
+    transition: transform 2s  delay 2s;
   
 }
 
@@ -68,12 +72,37 @@ body{
     width: 300px;
     height: 156px;
 }
+/* Another section */
+.container-b{display: flex;  
+   justify-content: center;
+}
+.sponsors{
+    font-size: 30px;
+    color: hsla(243, 62%, 39%, 1);
+    margin-left: 180px;
+}
+.sponsors-link{
+    display: flex;
+    font-size: 130px;
+}
+.discover{
+    color: indianred;
+}
+.jcb{color: rgb(43, 54, 218);
+
+}
+.stripe{
+    color: olivedrab;
+}
+.cpanel{
+    color: peru;
+}
 /* Footer design */
 .footer-style{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .logo img{
     width: 483px;
